@@ -1,0 +1,22 @@
+{
+  "name": "nodehook",
+  "version": "0.0.1",
+  "description": "Simple WebHook server to deploy from Github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "webhook",
+    "github"
+  ],
+  "dependencies": {
+    "express" : ""
+  },
+  "bin": {
+    "nodehook": "./bin/nodehook"
+  },
+  "author": "Olivier Lalonde <olalonde@gmail.com>",
+  "license": "BSD"
+}
